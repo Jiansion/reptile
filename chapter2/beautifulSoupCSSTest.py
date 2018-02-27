@@ -8,9 +8,18 @@ bsObj = BeautifulSoup(html, 'html.parser')
 
 # 获取 Html 中所有的 属性为 green 的 span 标签,并封装为一个 list
 nameList = bsObj.findAll('span', {'class': 'green'})
+
+
+
 '''
 使用 findAll 可以查找指定的所有标签
 '''
 # 遍历列表数据，并去除 HTML 标签
 for data in nameList:
     print(data.get_text())
+
+'''
+BeautifulSoup 
+findAll(tag,attributes,recursive,text,limit,keywords)
+find(tag,attributes,recursive,text,keyword)
+'''
