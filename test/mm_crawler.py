@@ -19,7 +19,7 @@ HEADERS = {
     'Referer': "http://www.mmjpg.com"
 }
 
-DIR_PATH = r"H:\mmjpg"      # 下载图片保存路径
+DIR_PATH = r"E:\Image"      # 下载图片保存路径
 
 
 def save_pic(pic_src, pic_cnt):
